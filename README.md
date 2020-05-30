@@ -38,3 +38,6 @@
 
 > ### Lesson 7
 > *Registering a Service Worker.* <br> Register sw.js using a different app.js file, remoember sw.js file must be and root folder of the project.
+
+> ### Lesson 8
+> *The Install Event.*
