@@ -44,3 +44,6 @@
 
 > ### Lesson 9
 > *The 'Activate' Event*<br> Observe the changes on browser application section
+
+> ### Lesson 10
+> *Lighthouse Audit*<br> And try fixing issue releated to the Audit

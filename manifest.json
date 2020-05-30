@@ -1,9 +1,9 @@
 {
-  "Name": "The PWA Project",
+  "name": "The PWA Project",
   "short_name": "SA",
   "start_url": "/index.html",
   "display": "standalone",
-  "background": "#FFE9D2",
+  "background_color": "#FFE9D2",
   "theme_color": "#FFE1C4",
   "orientation": "portrait-primary",
   "icons": [
