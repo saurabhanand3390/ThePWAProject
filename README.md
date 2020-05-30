@@ -25,3 +25,9 @@
 >   - Solution: Add this head - `<link rel="apple-touch-icon" href="relative file path for the icon">`<br>
 > - theme_color<br>
 >   - Solution: Add this head - `<meta name="apple-mobile-web-app-status-bar" content="color code for the status bar">`<br>
+
+> ### Lesson 5
+> Intro to Service Workers. They donot have direct access to the dom unlike normal js file which are tightly coupled with the dom and are the runs on main linear thread instead sw.js file works on seperate thread and works in background based on what is happening/ what event is happening on the browser/PWA App. It allows us perform:-<br>
+> - Background sync<br>
+> - Load content offline<br>
+> - Use push notification<br>
