@@ -1,4 +1,4 @@
-# How build an Pwa App
+# How to build an Pwa App
 
 ## Important Links
 
