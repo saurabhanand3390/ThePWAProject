@@ -13,5 +13,7 @@
 > - Using Android studio Amulator<br>
 >   - [Download Link](https://developer.android.com/studio)<br>
 > - Using Npm package http-server - Installation<br>
->   - `npm install http-server -g`<br>
+>   - Open terminal<br>
+>   - Run `npm install http-server -g`<br>
+>   - Go to folder in the PWA project resides using terminal [cd commonds]<br>
 >   - Run `http-server` common inside your project <br>
