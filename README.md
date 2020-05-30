@@ -27,7 +27,11 @@
 >   - Solution: Add this head - `<meta name="apple-mobile-web-app-status-bar" content="color code for the status bar">`<br>
 
 > ### Lesson 5
-> Intro to Service Workers. They donot have direct access to the dom unlike normal js file which are tightly coupled with the dom and are the runs on main linear thread instead sw.js file works on seperate thread and works in background based on what is happening/ what event is happening on the browser/PWA App. It allows us perform:-<br>
+> *Intro to Service Workers.* <br> They donot have direct access to the dom unlike normal js file which are tightly coupled with the dom and are the runs on main linear thread instead sw.js file works on seperate thread and works in background based on what is happening/ what event is happening on the browser/PWA App. It should be in root file. It allows us perform:-<br>
 > - Background sync<br>
 > - Load content offline<br>
 > - Use push notification<br>
+
+> ### Lesson 6
+> *Service Worker Life-cycle.* <br>
+> [Tutorial link](https://youtu.be/NhQfvZoRb2Q?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7)
