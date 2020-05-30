@@ -47,3 +47,6 @@
 
 > ### Lesson 10
 > *Lighthouse Audit*<br> And try fixing issue releated to the Audit
+
+> ### Lesson 11
+> *Fetch Events*<br>
