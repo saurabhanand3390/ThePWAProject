@@ -50,3 +50,6 @@
 
 > ### Lesson 11
 > *Fetch Events*<br>
+
+> ### Lesson 12
+> *Install Banner*<br> You should see install banner when you open it on browser with PWA Support [chrome safari edge and firefox]
