@@ -56,3 +56,6 @@
 
 > ### Lesson 13/14/15
 > *Offline mode Pre-Caching Assets*<br> Caching all things does not get change and are static
+
+> ### Lesson 16
+> *Offline mode Pre-Caching Assets*<br> Return the assets from cache
