@@ -53,3 +53,6 @@
 
 > ### Lesson 12
 > *Install Banner*<br> You should see install banner when you open it on browser with PWA Support [chrome safari edge and firefox]
+
+> ### Lesson 13/14/15
+> *Offline mode Pre-Caching Assets*<br> Caching all things does not get change and are static
