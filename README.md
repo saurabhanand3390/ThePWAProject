@@ -35,3 +35,6 @@
 > ### Lesson 6
 > *Service Worker Life-cycle.* <br>
 > [Tutorial link](https://youtu.be/NhQfvZoRb2Q?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7)
+
+> ### Lesson 7
+> *Registering a Service Worker.* <br> Register sw.js using a different app.js file, remoember sw.js file must be and root folder of the project.
