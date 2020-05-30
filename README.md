@@ -1,6 +1,7 @@
 # How build an Pwa App
-> *******************************
+
 ## Important Links
+
 > ### Lesson 1
 > Create a sample web app which you want to convert to PWA with html - css - js<br>
 
