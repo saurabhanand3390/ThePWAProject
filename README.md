@@ -18,3 +18,10 @@
 >   - Run `npm install http-server -g`<br>
 >   - Go to folder in the PWA project resides using terminal [cd commonds]<br>
 >   - Run `http-server` common inside your project <br>
+
+> ### Lesson 4
+> Some of the manifest are not supported in ios ex.<br>
+> - Icon<br>
+>   - Solution: Add this head - `<link rel="apple-touch-icon" href="relative file path for the icon">`<br>
+> - theme_color<br>
+>   - Solution: Add this head - `<meta name="apple-mobile-web-app-status-bar" content="color code for the status bar">`<br>
