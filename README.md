@@ -41,3 +41,6 @@
 
 > ### Lesson 8
 > *The Install Event.*
+
+> ### Lesson 9
+> *The 'Activate' Event*<br> Observe the changes on browser application section
