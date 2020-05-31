@@ -59,3 +59,6 @@
 
 > ### Lesson 16
 > *Offline mode Pre-Caching Assets*<br> Return the assets from cache
+
+> ### Lesson 17/18
+> *Cache Versioning and dynamic cache*<br> Return the assets from cache

@@ -1,4 +1,7 @@
-const staticCacheName = 'site_static';
+//Since install event only fires for the first time so if the index.html files is changed then it will not be updated to browser to as it show content from cache to fix this we can just this name [easy way] every time we update any files. and delete the old cache
+const staticCacheName = 'site_static_v1.1'; 
+const dynamicCacheName = 'site_dynamic_v1.1'; 
+//
 const assets = [
   '/',
   '/favicon.png',
@@ -14,24 +17,38 @@ const assets = [
 ];
 //Installing service worker
 self.addEventListener('install', evt => {
-  console.log('Service worker has been installed')
-  // evt.waitUntil is used to force browser to wait till every thingh is added
-  evt.waitUntil(caches.open(staticCacheName).then(cache => {
-    // cache.add();
-    console.log('Caching all things does not get change and are static')
-    cache.addAll(assets)
-  }))
-})
+  //console.log('service worker installed');
+  evt.waitUntil(
+    caches.open(staticCacheName).then((cache) => {
+      console.log('caching shell assets');
+      cache.addAll(assets);
+    })
+  );
+});
 //Activate service worker
 self.addEventListener('activate', evt => {
-  console.log('Service worker has been activated')
-})
+  //console.log('service worker activated');
+  evt.waitUntil(
+    caches.keys().then(keys => {
+      console.log(keys);
+      return Promise.all(keys
+        .filter(key => key !== staticCacheName)
+        .map(key => caches.delete(key))
+      );
+    })
+  );
+});
 //Fetch
 self.addEventListener('fetch', evt => {
-  console.log('Fetch event', evt)
+  //console.log('fetch event', evt);
   evt.respondWith(
-    caches.match(evt.request).then(cacheResp => {
-      return cacheResp || fetch(evt.request);
+    caches.match(evt.request).then(cacheRes => {
+      return cacheRes || fetch(evt.request).then(fetchRes => {
+        return caches.open(dynamicCacheName).then(cache => {
+          cache.put(evt.request.url, fetchRes.clone());
+          return fetchRes;
+        })
+      });
     })
-  )
-})
+  );
+});
